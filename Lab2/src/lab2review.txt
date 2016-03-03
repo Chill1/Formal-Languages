@@ -1,0 +1,45 @@
+9 pts
+
+Correctness:
+
+- The program produces correct output.
+
+- The program produces output in the correct format.
+
+
+Style:
+
+- Incorrect position of some opening braces { . Opening braces should appear on
+  the same line as the preceding statement (i.e. function opening, if, for,
+  while, etc.).
+
+- Good block comments
+
+- Classes do not have a description. Each class declaration must have a comment
+  block before it, which gives the class name and describes the purpose of the
+  class. Here is an example:
+/**
+ * SinglyLinkedList
+ * 
+ * This class implements a linked list with single forward links, and supports
+ * dynamic addition and deletion of nodes. 
+ */
+public class SinglyLinkedList {
+  // ...
+}
+
+
+Efficiency and Other Comments:
+
+- Program is efficient as implemented.
+
+
+CSV files:
+
+- State-transition table looks good.
+
+- Usually the description of states includes more than just identifying if they
+  are accepting or non accepting states. The description describes what does it
+  mean to be in that state.
+
+- Dr. Rivas
