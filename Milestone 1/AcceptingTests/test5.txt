@@ -1,0 +1,1 @@
+var b var z var z = 2 b = z print ( b )
